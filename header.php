@@ -28,9 +28,7 @@
 
 		<?php get_template_part( 'components/header/site', 'branding' ); ?>		
 
-		<?php get_template_part( 'components/navigation/navigation', 'top' ); ?>
-
-		<?php amini_social_menu(); ?>
+		<?php get_template_part( 'components/navigation/navigation', 'top' ); ?>		
 
 	</header>
 	<div id="content" class="site-content row">
