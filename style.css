@@ -23,6 +23,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Normalize
+# Print css
 # twitter-bootstrap 4.0.0-alpha.6 - bootstrap-grid
 # Accessibility
 # Alignments
@@ -266,6 +267,69 @@ template {
 
 [hidden] {
   display: none;
+}
+
+/*--------------------------------------------------------------
+# Print css
+--------------------------------------------------------------*/
+@media print {
+  *,
+  *::before,
+  *::after,
+  p::first-letter,
+  div::first-letter,
+  blockquote::first-letter,
+  li::first-letter,
+  p::first-line,
+  div::first-line,
+  blockquote::first-line,
+  li::first-line {
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  .main-navigation {
+    display: none;
+  }
+  table {
+    border-collapse: collapse !important;
+  }
+  table td,
+  table th {
+    background-color: #fff !important;
+  }
 }
 /*--------------------------------------------------------------
 # bootstrap-grid
