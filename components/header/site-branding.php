@@ -12,4 +12,5 @@
 				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
 			<?php
 			endif; ?>
+			<?php amini_the_custom_logo(); ?>
 		</div><!-- .site-branding -->
