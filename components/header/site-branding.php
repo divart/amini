@@ -13,4 +13,5 @@
 			<?php
 			endif; ?>
 			<?php amini_the_custom_logo(); ?>
+			<?php amini_social_menu(); ?>
 		</div><!-- .site-branding -->
