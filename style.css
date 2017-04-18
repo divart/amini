@@ -2137,7 +2137,7 @@ body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
 }
-
+/*
 @media screen and (min-width: 37.5em) {
     .content-area {
       float: left;
@@ -2160,7 +2160,7 @@ body {
       width: 100%;
     }
 }
-
+*/
 /*--------------------------------------------------------------
 ## Single Column / No Active Sidebar
 --------------------------------------------------------------*/
