@@ -21,10 +21,10 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
+<div id="page" class="site container">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'amini' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header row" role="banner">
 
 		<?php get_template_part( 'components/header/site', 'branding' ); ?>
 
@@ -35,4 +35,4 @@
 		<?php amini_social_menu(); ?>
 
 	</header>
-	<div id="content" class="site-content">
+	<div id="content" class="site-content row">
