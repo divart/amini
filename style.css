@@ -2161,6 +2161,14 @@ body {
     }
 }
 */
+.wp-custom-logo .site-title, .wp-custom-logo .site-description {
+    display: none;
+}
+
+#masthead, #colophon {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 /*--------------------------------------------------------------
 ## Single Column / No Active Sidebar
 --------------------------------------------------------------*/
