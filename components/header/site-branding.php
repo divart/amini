@@ -1,4 +1,4 @@
-		<div class="site-branding">
+		<div class="site-branding  col-6 col-md-4">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
