@@ -53,8 +53,8 @@ function amini_setup() {
 	 * Add support for core custom logo.
 	 */
 	add_theme_support( 'custom-logo', array(
-		'height'      => 200,
-		'width'       => 200,
+		'height'      => 100,
+		'width'       => 350,
 		'flex-width'  => true,
 		'flex-height' => true,
 	) );
@@ -117,8 +117,8 @@ function amini_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
 	) );
 }
 add_action( 'widgets_init', 'amini_widgets_init' );
