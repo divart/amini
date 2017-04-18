@@ -26,9 +26,7 @@
 
 	<header id="masthead" class="site-header row" role="banner">
 
-		<?php get_template_part( 'components/header/site', 'branding' ); ?>
-
-		<?php amini_the_custom_logo(); ?>
+		<?php get_template_part( 'components/header/site', 'branding' ); ?>		
 
 		<?php get_template_part( 'components/navigation/navigation', 'top' ); ?>
 
