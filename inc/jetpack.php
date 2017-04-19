@@ -16,7 +16,9 @@
 function amini_jetpack_setup() {
 	// Add theme support for Infinite Scroll.
 	add_theme_support( 'infinite-scroll', array(
+		'type'		=> 'click',
 		'container' => 'main',
+		'wrapper'	=> false,
 		'render'    => 'amini_infinite_scroll_render',
 		'footer'    => 'page',
 	) );
